@@ -1,0 +1,16 @@
+public class largestElement
+{
+    public static void main(String[] args)
+    {
+        int [] arr={8,2,6,23,78,54};
+        int max=arr[0];
+        for (int a :arr ) 
+        {
+            if (a>max){
+                max=a;
+            }
+        }
+        System.out.println("largest element is " + max);
+    }
+
+}
